@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1228740411140418745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7888049635973742096}
+  - component: {fileID: -2981482351142489543}
+  - component: {fileID: 9021229218794176625}
+  m_Layer: 0
+  m_Name: Ile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7888049635973742096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228740411140418745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29, y: 0, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2981482351142489543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228740411140418745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 654736cf02206a146b373b1a39eac637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ileLargeur: 700
+  _ileProfondeur: 700
+  _forcePerlin: 26.9
+  _forcePerlinVariants: 53
+  _forcePerlinBiomes: 100
+  _k: 40.2
+  _c: 0.4
+  _bruitMin: 1
+  _coefHauteur: 10
+  _bruitMax: 1
+  _donneesPerso: {fileID: 11400000, guid: 32586422aa217634ab3216819670a3b8, type: 2}
+  _conteneurIle: {fileID: 7888049635973742096}
+  _conteneurEnnemis: {fileID: 0}
+  _conteneurNPC: {fileID: 0}
+  _conteneurObjets: {fileID: 0}
+  _prefabPerso: {fileID: 0}
+  _prefabCube: {fileID: 3082174475244607728, guid: 920a2e5147a768f43af342fe41736942,
+    type: 3}
+  _plane: {fileID: 5971753410393399545, guid: 0dd547e9e70f0644596ecf0f67978b72, type: 3}
+  _textureRenderer: {fileID: 4964097471909463615, guid: 0dd547e9e70f0644596ecf0f67978b72,
+    type: 3}
+  _prefabLac: {fileID: 223762518400941930, guid: 042b5607b4597e14f8f494629ed576ad,
+    type: 3}
+  _prefabNPC: {fileID: 7537975084634612503, guid: 168dec7c5111b6b4198542174c461e35,
+    type: 3}
+  _nbNPC: 10
+  _prefabEnnemi: {fileID: 6165882914282351233, guid: 698dec47aa9fb4c46ac651ae34eceaab,
+    type: 3}
+  _donneesNiveau: {fileID: 11400000, guid: 4c8916794d55a9a498364166dafbfad5, type: 2}
+--- !u!114 &9021229218794176625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228740411140418745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 55
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 675a7efbecae77b4bb44f4f24bd8e748, type: 2}
+  m_BuildHeightMesh: 0

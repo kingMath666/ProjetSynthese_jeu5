@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52251f63fd62364996f7ae09b0cba5f, type: 3}
+  m_Name: NavigationPrincipale
+  m_EditorClassIdentifier: 
+  _donneesPerso: {fileID: 11400000, guid: 32586422aa217634ab3216819670a3b8, type: 2}
+  _donneesNiveau: {fileID: 11400000, guid: 4c8916794d55a9a498364166dafbfad5, type: 2}
+  mainCamera: {fileID: 0}
+  _clipBouton: {fileID: 8300000, guid: 5beb900aeb2e016469c7501e72ef0091, type: 3}

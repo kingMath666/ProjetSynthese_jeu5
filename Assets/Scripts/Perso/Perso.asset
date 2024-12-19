@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b61653deac27ff42bffd64e1672e56b, type: 3}
+  m_Name: Perso
+  m_EditorClassIdentifier: 
+  _navigation: {fileID: 11400000, guid: f443eb7e57531764a9d3196b4408f184, type: 2}
+  _sonRemisePingouin:
+  - {fileID: 8300000, guid: 2e3c503146f25aa4cb93940bf94119e6, type: 3}
+  - {fileID: 8300000, guid: d9c17506331d77e4197393d7372d6cac, type: 3}
+  - {fileID: 8300000, guid: c91219486ca687e43bbd6257f4505d83, type: 3}
+  - {fileID: 8300000, guid: 03233e7a9bff5884aa09639334a7325e, type: 3}
+  _sonPingouinVientIci:
+  - {fileID: 8300000, guid: 7cc4baa36b2ed7e419a60aa8c455c1b7, type: 3}
+  - {fileID: 8300000, guid: 81369085e50a62046979a610509c375f, type: 3}
+  - {fileID: 8300000, guid: f63b37fb8503715448cdee5c93e222a2, type: 3}
+  - {fileID: 8300000, guid: 9cd1d1cab08be0d4c8b28aeaba179ff3, type: 3}
+  - {fileID: 8300000, guid: 71999e3303e52044f9b42aa281504f62, type: 3}
+  _sonPingouinAttend:
+  - {fileID: 8300000, guid: b6142a1e67e83a74f8e0279477202fea, type: 3}
+  _sonManqueFlocons:
+  - {fileID: 8300000, guid: 96b76cb0e562d9648ace80b9aa7057a2, type: 3}
+  - {fileID: 8300000, guid: 2cfa49496b878de4998ed84c287e7599, type: 3}
+  _sonManqueBalles:
+  - {fileID: 8300000, guid: 21d22444db7801f468e8dfce9650aa20, type: 3}
+  _nbFloconsIni: 0
+  _nbBoulesDeNeigeIni: 0
+  _nbPingouinsIni: 2
+  _nbPingouinsCapturesIni: 0
+  _prixBonhommeDeNeige: 50
+  _nbBoulesDeNeige: 0
+  _nbFlocons: 0
+  _nbPingouinsCaptures: 1
+  _bougerPerso: 1
+  _tutorielActif1: 1
+  _tutorielActif2: 0
